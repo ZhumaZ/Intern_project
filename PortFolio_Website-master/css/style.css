@@ -1,0 +1,410 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 3rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 600 20px/4px var(--roboto);
+    
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: url(../img/banner/network-mesh-wire-digital-technology-background_1017-27428.webp) no-repeat 0% 60%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 25%;
+    
+}
+
+.site-main .site-banner .site-title h3{
+    font-weight: 400;
+    color: rgb(16, 16, 67);
+    width: 60vw;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+   text-align: right;
+    color: rgb(16, 16, 67);
+    
+}
+
+.site-main .site-banner .banner-image > img{
+    vertical-align: middle;
+    width: 5rem;   
+}
+
+/* End Banner Area */ 
+
+
+
+
+/* Our Feature Projects Area */ 
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 15rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+    padding-top: 30vmin;
+}
+
+.site-main > .services-area .services{
+    background: rgba(36, 11, 80, 0.973);
+    padding: 2rem 0;
+    width: 17.1rem;
+    margin: .5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Our Feature Projects Area */ 
+
+/* Services Area */ 
+
+/* Section 3 */
+
+
+  
+ 
+  
+  
+  
+  
+  
+  
+
+/*.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+*/
+
+
+/* About Me */ 
+/*
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+*/ 
+
+/* End About Me */ 
+
+/* Subscribe me */ 
+/*
+.site-main .subscribe-us-area .subscribe{
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+*/ 
+
+/* End subscribe me */ 
+
+/* Footer Area */ 
+/*
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+*/ 
+/* End Footer */ 
+
+/* Services Area */
+
+/*
+
+.site-main > .services-area .services{
+    background: rgba(155, 226, 244, 0.973);
+    padding: 1rem 0;
+    width: 20rem;
+    margin: .5rem .5rem;
+    transition: box-shadow .7s ease;
+    
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}  */
+
+
+
+
+
+/* Start fServices Area */ 
+
+.site-main .fservices-area{
+    padding: 2rem 5rem;
+}
+
+.site-main .fservices-area .services-title{
+    padding: 0 20rem;
+    padding-bottom: 8rem;
+}
+
+.site-main .fservices-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main .fservices-area .services-title h1::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: rgb(183, 16, 16);
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+/* End fServices Area */ 
+
+
+
+.cover {
+    width: 100%;
+    height: 70vmin;
+    background: url("../img/s5.jpg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+  }
+  
+  .cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+  
+  .cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 19vmin;
+    
+  }
+  
+  .cover .content > h3 {
+    font-family: var(--Patua);
+    font-size: 3vmin;
+    color: whitesmoke;
+    padding-top: 20vmin;
+  }
+  .cover .content > h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+  }
+  
+  
+  .numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 20rem;
+    height: 18rem;
+    padding-top: 8vmin;
+    margin: 0.5rem;
+    
+    box-shadow: 1px 2px 50px 0px rgba(132, 132, 240, 0.349);
+  }
+  
+  .numbers {
+    margin-top: -90vmin;
+  }
+  
+  
+  .numbers .rect > p {
+    font-family: var(--Patua);
+  }
+  
+  .purchase > h3 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+  }
+  
+  .purchase > p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin 3vmin;
+  }
+  
+  .cards div {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cards .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4em 2.5em;
+    font-size: 2vmin;
+  }
+  
+  .card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+  }
+  
+  .card-body .pricing {
+    background: rgba(255, 255, 255, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+  }
+  
+  .card-body .pricing > h3 {
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+  }
+  
