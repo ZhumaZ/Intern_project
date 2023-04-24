@@ -118,7 +118,7 @@
     content: " ";
     height: 2px;
     width: 18vw;
-    background: rgb(183, 16, 16);
+    background: rgb(102, 16, 183);
     display: inline-block;
     margin-left: 5%;
     transform: translateY(-10px);
@@ -231,8 +231,141 @@
     font-size: 10vmin;
     padding: 1em 0.5em;
   }
+
+
+  /* drink section */
+.drink{
+  background: var(--brown);
+  color: var(--brightYellow);
+  text-transform: capitalize;
+}
+.drink-form,.drink-card{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 70%;
+  justify-content: center;
+  grid-row-gap: 1.25rem;
+}
+.drink-form__feedback{
+  border:0.1rem solid var(--brightYellow);
+  padding: 0.25rem;
+  display: none;
+}
+.error{
+  display: block;
+  color: red;
+  border-color: red;
+}
+.success{
+  display: block;
+  color: green;
+  border-color: green;
+}
+.drink-form__title,.drink-card__title{
+  font-size: 3rem;
+}
+.input-name,.input-lastname,.input-email{
+  width: 100%;
+}
+.input-name,.input-lastname,.input-email,.input-submit{
+  font-size: 1rem;
   
-/
+  padding: 0.25rem 0.5rem;
+  background: rgba(132, 132, 240, 0.349);
+  color: var(--darkBrown);
+  border:none;
+  outline: none;
+}
+.input-name::placeholder,.input-lastname::placeholder,.input-email::placeholder{
+  color: var(--darkBrown);
+  text-transform: capitalize;
+}
+.input-submit{
+  background: var(--yellow);
+  color: var(--black);
+  transition: all 0.5s linear;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.input-submit:hover{
+  opacity: 0.8;
+}
+.drink-card__list{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 2rem;
+}
+.person{
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  text-align: left;
+  grid-gap: 1rem;
+  border:0.1rem solid rgba(111,87,77,0.6);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+.person__thumbnail{
+  border-radius: 50%;
+}
+@media screen and (min-width:768px){
+  .drink-card__list{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+  
+/* contact section */
+.contact-container{
+  max-width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 1rem;
+}
+.contact-info{
+  display: grid;
+  justify-content: center;
+}
+.contact-item{
+  margin: 1rem 0;
+  padding: 0rem;
+}
+.contact-item__icon{
+  font-size: 2rem;
+  color: var(--yellow)
+}
+.contact-item__title{
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+  letter-spacing: 0.20rem;
+  font-style: italic;
+}
+.contact-item__text{
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+@media screen and (min-width:768px){
+  .contact-info{
+    grid-template-columns: repeat(3, 1fr);
+    order:-1;
+  }
+}
+@media screen and (min-width:992px){
+  .contact-info{
+    grid-template-columns: 1fr;
+    order:0;
+  }
+  .contact-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2rem
+  }
+  .contact-map{
+    align-self: center;
+  }
+}
 
 
   
